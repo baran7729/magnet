@@ -1,0 +1,659 @@
+body {
+    font-size: 16px;
+    background-color:beige;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
+/*overrides the bootstrap container-fluid to stretch containerfluid to the whole header*/ 
+.container-fluid {   
+        padding-right:0;
+        padding-left:0;
+        margin-right:auto;
+        margin-left:auto;
+        height:130px;
+        display: flex;
+        justify-content: center;
+        
+ }
+  
+ .navbar{
+    height:100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+ }
+
+ .navbar-brand{
+    padding-left: 0px;
+    display: inline-block;
+    padding-top: 40px;
+    margin-left: 0px;
+    
+ }
+
+ 
+ h1{
+    margin-top: 100px;
+    font-weight: bold;
+    font-weight: 500;
+    display: block;
+    float:left;
+    font-family: 'oxygen', serif;
+    color:aliceblue;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    border: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    line-height:0.75;
+    padding-left: 0px;
+    width:80%; 
+    
+   
+    }
+
+ #myslogan{
+  text-decoration:dotted ;
+  color:aliceblue;
+  display:inline;
+  font-size:small;
+  float: left;
+  margin-left: 35px;
+  
+ }
+
+  #logo-img{
+  
+   
+    width:100px;
+    height:100px;
+    background:url(m1.png) top left;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-top: 10px;
+    float:left;
+    
+ }
+
+ .navbar-nav  li{
+  margin-left:15px;
+  margin-right:15px;
+}
+
+ .navbar-toggler {
+ height: 40px;
+ display:inline-flex;
+margin-top: 0px;
+margin-right: 20px;
+ 
+}
+
+.input-group i{
+    margin-top: 13px;
+    color:royalblue;
+   
+}
+
+.input-group{
+    width:15%;
+position: absolute;
+top: 20px;
+right: 60px;
+}
+/*search icon to not too close to search place holder*/
+.fa-search{
+    padding-left: 5px;
+}
+
+#navbar{
+   
+    
+   
+    position: absolute;
+    bottom: 0px;
+    right:50px;
+}
+/*menu items*/
+#navbar  a{
+    color:aliceblue;
+}
+.dropdown-item span{
+  color: black;
+} 
+
+#carouselExampleIndicators{
+  margin-top:60px;
+}
+
+.site-footer {
+  padding: 5em 0;
+font-size: 14px;
+  background: #222;
+ 
+
+   
+   
+    /*
+      position:absolute;
+      bottom: 0;
+     
+      width: 100%;
+      height:10vh;
+    */
+  } 
+
+.site-footer a{
+  color:aqua;
+  border-bottom: 1px solid transparent;
+  
+}
+
+.site-footer a:hover{
+  color:turquoise;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.site-footer h2{
+  font-size: 22px;
+  margin-bottom: 28px;
+  letter-spacing: .05em;
+  color:aliceblue;
+  text-align: center;
+}
+.site-footer p{
+  color: aliceblue;
+  text-align: center;
+}
+
+.site-footer .footer-link li{
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: aliceblue;
+  text-align: center;
+
+}
+
+
+
+
+
+
+@media(max-width: 576px){
+    
+  
+  
+ #myheader{
+    background-color:dimgrey !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #logo-img{
+display: none;
+    }
+    .input-group{
+        display: none;
+    }
+    #navbar{
+       height:100vh;
+       width:100vh;
+        position: relative;
+       
+        padding-top: 10px;
+        background-color:silver;
+
+ 
+  right:0px;
+  margin-left: 0px;
+    top: 0;
+    z-index: 1030;
+    border: 10px;
+        
+       
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      }
+#navbar a{
+  color: black;
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+  font-size: 1em;
+}
+
+
+
+
+
+
+    #mytrick{
+      width:70%;
+      height:100px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      justify-content: end;
+      
+    }
+
+}
+
+@media(min-width: 700px){
+#logo-img{ 
+  float: left;
+  margin-left: 50px;
+  
+  
+
+    
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* #myheader{
+    padding-right:0;
+        padding-left:0;
+        margin-right:auto;
+        margin-left:auto;
+  }
+ /*
+ .bg-light {
+    
+    border-radius: 0;
+    border: 0;
+    width: 100%;	
+    height: 80px;
+    margin-top: 0px;
+ }
+ 
+ */
+  
+/*targets the hidden-xs class*/
+/* .navbar div{
+   width:100%;
+   display: flex;
+   justify-content: right;
+padding-left: 20px;
+margin-left: 20px; 
+
+}
+
+ .navber{
+    
+    width:100%;
+ } 
+  
+ 
+.navbar-nav{
+    margin-top: 40px;
+   
+    
+} 
+ 
+ 
+  #logo-img {
+    background: url('../images/m1.png') no-repeat;
+    width: 180px;
+    height: 180px;
+    margin: 10px 0px auto 0px;
+     
+    
+    margin-top: 0px;
+    margin-left:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  
+#myheader{
+height:80px;
+width:100%;
+padding-left: 0px;
+padding-right: 0px;
+/*set the child(div in navbar) centered in the body */
+/*display: flex;*/
+/*justify-content: center;
+
+}
+
+.container-fluid div{
+    padding-left: 0px;
+    margin-left: 0px;
+   
+}
+ .navbar-brand{
+    text-align: left;
+   float:left;
+   height:30px;
+   margin-top: 0px;
+   margin-right: 20px;
+   padding-left: 0px;
+ }
+  .navbar-brand h1 {   
+    font-family: 'oxygen', serif;
+    color: #091105;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    border: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    line-height: .75;
+    padding-left: 0px; 
+   	display: flex;
+    height: 30px; 
+ }
+.navbar-brand a{
+    float:left;
+    margin-top: 0px;
+    padding-top: 0px;
+} 
+  
+ 
+ .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand p { /* smart way to go */
+   /* color: #000;
+    font-style: italic;
+    text-transform:uppercase;
+    font-size: .7em;
+    text-decoration-style: wavy;
+    margin-top:3px;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+
+.input-group{
+  margin-right: 10px;
+  float: right;
+  max-width: 250px;
+ width:30px;
+ height:10px;
+ margin-top: 10px;
+ }
+
+ .input-group .btn {
+    
+    color: #000;
+    
+ }
+
+.navbar  .nav-item  a {
+    color:#000;
+    
+}
+
+@media(max-width: 576px){
+    .navbar-header  {
+     margin-top: 0px;
+     height:120px;
+     padding-bottom: 0;
+width:100%;
+margin-right: 0px;
+padding-right: 0px;
+
+    }
+
+   
+/*
+.navbar-nav {
+    float:left;
+}*/
+
+
+/*
+.navbar-brand h1{margin-top: 0;}
+#logo-img {display: none;}
+.navbar-toggler{
+    margin-top: 8px;
+    float:center;
+    max-height: 40px;
+    max-width:40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 333px;
+    padding-right: 0px;
+    border: none;
+    margin-right: 0px;
+}
+.navbar-toggler-icon {
+margin-top: 13px;
+position: absolute;
+
+margin-right:0px;
+padding-bottom: 0px;}
+
+
+.navbar-toggler button{
+    margin-top: 30px;
+    margin-right: 100px;
+   
+    
+}
+
+#searchgroup{
+  display:none;
+   
+}    
+
+
+.navbar div{
+    display: block;
+}
+}
+
+.container{
+    width:2000px;
+    height: 800px;
+}
+
+.header{
+  }  /* display: flex;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer .container-fluid{
+    width: 100%;
+    background-color:#091105 !important;
+    clear: both; 
+    height: 20%;
+    
+  }
+  
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .footer .col h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 10px 0;
+    color:#000;
+    text-transform: uppercase;
+  }
+  .footer .col ul {
+    list-style-type:none;
+    font-weight: 1000;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color:#000;
+    font-size: 12px;
+    padding: 5px 0px;
+    font-weight: 600;
+  }
+  .address ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    cursor: pointer;
+    color:brown;
+    font-weight: bold;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .address {
+      width: 1000px;
+      display: block;
+    }
+    .address h2 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h2 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h2 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  
